@@ -1,5 +1,10 @@
-let a = prompt("mời nhập số nguyên a:");
-let a1 = parseInt(a);
+// Nhập vào 2 số nguyên a, b từ bàn phím
+var a = parseInt(prompt("Nhập số nguyên a: "));
+var b = parseInt(prompt("Nhập số nguyên b: "));
 
-let b = prompt("mời nhập số nguyên b:");
-let b1 = parseInt(b);
+// Tính tổng c của a và b
+var c = a + b;
+
+// In ra kết quả đồng thời bằng 2 cách
+document.write("Kết quả là: " + c);
+console.log("Kết quả là: " + c);
