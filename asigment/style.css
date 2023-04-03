@@ -1,0 +1,55 @@
+/* Thiết lập các thuộc tính cho thẻ body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Thiết lập các thuộc tính cho header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Thiết lập các thuộc tính cho navigation */
+nav {
+  background-color: #555;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Thiết lập các thuộc tính cho navigation links */
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Thiết lập các thuộc tính cho main content */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Thiết lập các thuộc tính cho individual content items */
+.content {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+}
+
+/* Thiết lập các thuộc tính cho footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
